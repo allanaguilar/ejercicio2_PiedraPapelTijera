@@ -18,8 +18,6 @@ var resultados =  [ ["Empate!",  "Perdise :(", "Ganaste!", "Ganaste!", "Perdiste
 
 opcionUsuario = prompt("¿Qué eliges?\nPiedra: 0\nPapel: 1\nTijera: 2\nLagarto: 3\nSpock: 4", 0);
 
-window.alert("My name is George. Welcome!")
-
 alert("Elegiste " + opciones[opcionUsuario]);
 alert("Javascript eligió " + opciones[opcionMaquina]);
 alert(resultados[opcionUsuario][opcionMaquina]);
